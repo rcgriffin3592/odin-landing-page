@@ -94,3 +94,35 @@ ul {
     align-items: center;
     justify-content: space-between;
 }
+
+.info {
+    margin: 35px;
+}
+
+.info h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.info .box {
+    max-width: 160px;
+}
+
+.info p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.info img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.info .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
