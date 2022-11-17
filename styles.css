@@ -82,6 +82,7 @@ ul {
     color: #F9FAF8;
     font-weight: 700;
     border-radius: 10px;
+    border: 0;
 }
 
 .header img {
@@ -130,4 +131,34 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+
+.quote .container p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote .container .credit{
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.quote {
+    background-color: #e5e7eB;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
 }
