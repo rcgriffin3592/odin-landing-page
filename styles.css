@@ -136,14 +136,14 @@ ul {
 .quote .container p {
     color: #1F2937;
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
-    font-weight: 100;
 }
 
 .quote .container .credit{
     color: #1F2937;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: bold;
     align-self: flex-end;
 }
 
@@ -161,4 +161,52 @@ ul {
     flex-direction: column;
     width: 800px;
     justify-content: center;
+}
+
+.call {
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call .container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    min-width: 1000px;
+    justify-content: space-around;
+    padding: 42px;
+}
+
+.call .text h3 {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call .text p {
+    color: #e5e7eB;
+}
+
+.call .button {
+    background-color: #3882F6;
+    padding: 0px 40px;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 700;
+    border-radius: 10px;
+    border: solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #e5e7eB;
+    font-size: 18px;
 }
